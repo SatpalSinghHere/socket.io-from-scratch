@@ -23,7 +23,7 @@ io.on('connection', (socket)=>{
     })
 })
 
-app.listen(PORT, ()=>{
+http.listen(PORT, ()=>{
     console.log(`Server is running on http://localhost:${PORT}`)
 })
 
